@@ -44,10 +44,13 @@ chatdoc仅推荐使用int8-2048模型。因此所需模型文件在位于`~/airb
 
 ## 依赖安装
 在AirBox终端进入到/data/chatdoc/目录下。执行
+`virtualenv glm`
 
-`pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`
+`source glm/bin/activate`
 
-`pip3 install tpu_perf-1.2.24-py3-none-manylinux2014_aarch64`
+`pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`
+
+`pip install tpu_perf-1.2.24-py3-none-manylinux2014_aarch64.whl`
 
 安装项目所需要的依赖。
 

@@ -5,6 +5,7 @@ nav:
   - 开始: index.md
   - 准备: 准备.md
   - AirBox连接方式: AirBox连接方式.md 
+  - 虚拟环境使用: 虚拟环境使用.md 
 
   - 大模型应用:
     - ChatBot安装: 大模型应用/ChatBot安装.md
@@ -19,4 +20,4 @@ nav:
     - SD v15安装启动: AI绘画应用/SD v15安装启动.md
 
   - 智能语音应用:
-    - whisper: 智能语音应用/whisper.md
+    - 语音摘要: 智能语音应用/语音摘要.md

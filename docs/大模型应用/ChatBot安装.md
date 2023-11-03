@@ -43,11 +43,16 @@ config.ini需要配置正确的模型文件，默认是选择int8-2048的模型�
 ## 依赖安装
 在AirBox终端进入到/data/chatbot/目录下。执行
 
-`pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`
+`source ../chatdoc/glm/bin/activate`
+
+`pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`
 
 安装项目所需要的依赖。
 
 ## 项目启动
 
 - 进入项目目录`cd /data/chatbot`
-- 启动项目`python3 web_demo.py`
+
+- 若没有激活glm环境，执行`source ../chatdoc/glm/bin/activate`，若已激活，则忽略此步。
+
+- 启动项目`python web_demo.py`
