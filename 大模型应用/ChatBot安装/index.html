@@ -781,12 +781,20 @@ token_path = ../chatglm-int8-2048/tokenizer.model
 <p>config.ini需要配置正确的模型文件，默认是选择int8-2048的模型。若要改更为其他模型文件，请修改配置文件中的模型文件路径。</p>
 <h2 id="_4">依赖安装</h2>
 <p>在AirBox终端进入到/data/chatbot/目录下。执行</p>
-<p><code>pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
+<p><code>source ../chatdoc/glm/bin/activate</code></p>
+<p><code>pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
 <p>安装项目所需要的依赖。</p>
 <h2 id="_5">项目启动</h2>
 <ul>
-<li>进入项目目录<code>cd /data/chatbot</code></li>
-<li>启动项目<code>python3 web_demo.py</code></li>
+<li>
+<p>进入项目目录<code>cd /data/chatbot</code></p>
+</li>
+<li>
+<p>若没有激活glm环境，执行<code>source ../chatdoc/glm/bin/activate</code>，若已激活，则忽略此步。</p>
+</li>
+<li>
+<p>启动项目<code>python web_demo.py</code></p>
+</li>
 </ul>
 
 
