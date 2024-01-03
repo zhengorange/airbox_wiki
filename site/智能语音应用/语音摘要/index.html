@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.10">
     
     
       
@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.fad675c6.min.css">
       
       
 
@@ -266,14 +266,16 @@
     
     
     
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
+          
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
@@ -447,14 +449,16 @@
     
     
     
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
+          
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
@@ -510,14 +514,16 @@
     
     
     
+    
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
+          
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
@@ -585,35 +591,45 @@
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    下载项目
+    <span class="md-ellipsis">
+      下载项目
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    新建虚拟环境
+    <span class="md-ellipsis">
+      新建虚拟环境
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    安装依赖
+    <span class="md-ellipsis">
+      安装依赖
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    启动项目
+    <span class="md-ellipsis">
+      启动项目
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
-    退出当前环境
+    <span class="md-ellipsis">
+      退出当前环境
+    </span>
   </a>
   
 </li>
@@ -660,35 +676,45 @@
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    下载项目
+    <span class="md-ellipsis">
+      下载项目
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    新建虚拟环境
+    <span class="md-ellipsis">
+      新建虚拟环境
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    安装依赖
+    <span class="md-ellipsis">
+      安装依赖
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    启动项目
+    <span class="md-ellipsis">
+      启动项目
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
-    退出当前环境
+    <span class="md-ellipsis">
+      退出当前环境
+    </span>
   </a>
   
 </li>
@@ -715,7 +741,8 @@
 <ol>
 <li><code>cd /data</code> 进入data目录，在此目录下安装whisper引擎。</li>
 <li><code>git clone -b release https://github.com/JKay0327/whisper-TPU_py</code> 拉取最新的whisper引擎。</li>
-<li>从百度网盘下载所需的bmodel文件 <code>https://pan.baidu.com/s/1IakvYn9dWkg3mmxEo9medA?pwd=k4ih</code>，然后将bmodel文件夹移动到<code>/data/whisper-TPU_py/</code>下。</li>
+<li>从百度网盘下载whisper所需的bmodel文件 <code>https://pan.baidu.com/s/1IakvYn9dWkg3mmxEo9medA?pwd=k4ih</code>，然后将bmodel文件夹移动到<code>/data/whisper-TPU_py/</code>下。</li>
+<li>从百度网盘下载chatglm2所需的bmodel文件<code>https://pan.baidu.com/s/1i5r1RLnWRXbSL1KbDnqq-A?pwd=nffa</code>，然后将chatglm-int8-1024文件夹拷贝到<code>/data/</code>下。</li>
 <li><code>cd /data</code> 进入data目录，在此目录下安装webui。</li>
 <li><code>git clone https://github.com/zhengorange/Whisper-WebUI.git</code> 拉取最新的webui。</li>
 </ol>
@@ -779,10 +806,11 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      <script src="../../assets/javascripts/bundle.6c14ae12.min.js"></script>
       
     
   </body>

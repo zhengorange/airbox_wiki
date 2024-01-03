@@ -68,7 +68,7 @@ embedding分为cpu版本和tpu版本，任选其一即可。
 
 
 ## 项目启动
-
+- 激活环境，若已激活则无需再执行`source glm/bin/activate`
 - 进入项目目录`cd /data/chatdoc `
 - 启动项目`bash run.sh` 或 `bash run_emb_tpu.sh`
 
